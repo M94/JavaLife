@@ -22,11 +22,11 @@ public class Cell {
      */
 	
     public boolean isAlive() {
-	if (_state == State.ALIVE) {
-	    return true;
-	} else {
-	    return false;
-	}
+		if (_state == State.ALIVE) {
+		    return true;
+		} else {
+		    return false;
+		}
     }
 	
     /**
